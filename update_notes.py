@@ -16,7 +16,6 @@ def update_notes_simple(content):
     lines = content.split('\n')
     
     # Build AppleScript to create content incrementally
-    note_name = "📈 Business Broker Monitoring"
     folder_name = "Building"
     
     # Escape quotes in lines
@@ -25,7 +24,6 @@ def update_notes_simple(content):
     script = f'''
     tell application "Notes"
         activate
-        set noteName to "{note_name}"
         set folderName to "{folder_name}"
         
         -- Find or create folder
@@ -35,39 +33,59 @@ def update_notes_simple(content):
             set targetFolder to make new folder with properties {{name:folderName}}
         end try
         
-        -- Find or create note
+        -- Look for existing Daily Report note
+        set existingNote to missing value
         try
-            set existingNote to note noteName in targetFolder
-            set currentBody to body of existingNote
-            
-            -- Build new content incrementally (Test 9 approach)
-            tell existingNote
-                set body to "{escaped_lines[0] if escaped_lines else ""}"'''
+            set allNotes to every note in targetFolder
+            repeat with aNote in allNotes
+                set noteName to name of aNote
+                if noteName contains "Daily Report" then
+                    set existingNote to aNote
+                    exit repeat
+                end if
+            end repeat
+        end try
+        
+        -- Append to existing note if found
+        if existingNote is not missing value then
+            try
+                set currentBody to body of existingNote
+                
+                -- Build new content incrementally (Test 9 approach)
+                tell existingNote
+                    set body to "{escaped_lines[0] if escaped_lines else ""}"'''
     
     # Add remaining lines incrementally
     for line in escaped_lines[1:]:
         script += f'''
-                set body to body & return & "{line}"'''
+                    set body to body & return & "{line}"'''
     
     script += f'''
-                set body to body & return & return & currentBody
-            end tell
-            return "Appended to existing note"
-        on error
+                    set body to body & return & return & currentBody
+                end tell
+                return "Appended to existing Daily Report note"
+            on error e
+                return "Error appending: " & e
+            end try
+        else
             -- Create new note using Test 9 approach
-            set newNote to make new note in targetFolder with properties {{name:noteName}}
-            tell newNote
-                set body to "{escaped_lines[0] if escaped_lines else ""}"'''
+            try
+                set newNote to make new note in targetFolder
+                tell newNote
+                    set body to "{escaped_lines[0] if escaped_lines else ""}"'''
     
     # Add remaining lines for new note
     for line in escaped_lines[1:]:
         script += f'''
-                set body to body & return & "{line}"'''
+                    set body to body & return & "{line}"'''
     
     script += '''
-            end tell
-            return "Created new note"
-        end try
+                end tell
+                return "Created new Daily Report note"
+            on error e
+                return "Error creating: " & e
+            end try
+        end if
     end tell
     '''
     
