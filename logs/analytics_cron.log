@@ -1,0 +1,307 @@
+2025-06-08 15:53:40 - Starting analytics cron job (Hours: 6, Mode: dryrun)
+2025-06-08 15:53:40 - ERROR: Configuration file not found: config.env
+2025-06-08 15:53:58 - Starting analytics cron job (Hours: 6, Mode: dryrun)
+2025-06-08 15:53:58 - Running analytics script for 6 hours...
+2025-06-08 15:53:59 - ERROR: Analytics script failed with exit code 1
+2025-06-08 15:53:59 - ERROR: Output: /Users/michaelzhao/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/michaelzhao/swe/business-broker-agent/analytics_for_notes.py", line 18, in <module>
+    from business_broker_analytics import BusinessBrokerAnalytics, Config
+  File "/Users/michaelzhao/swe/business-broker-agent/business_broker_analytics.py", line 18, in <module>
+    from relevanceai import RelevanceAI
+ModuleNotFoundError: No module named 'relevanceai'
+2025-06-08 15:54:16 - Activated virtual environment
+2025-06-08 15:54:16 - Starting analytics cron job (Hours: 6, Mode: dryrun)
+2025-06-08 15:54:16 - Running analytics script for 6 hours...
+2025-06-08 15:54:49 - Activated virtual environment
+2025-06-08 15:54:49 - Starting analytics cron job (Hours: 6, Mode: dryrun)
+2025-06-08 15:54:49 - Running analytics script for 6 hours...
+2025-06-08 15:54:51 - Analytics script completed successfully
+2025-06-08 15:54:51 - Dry run mode: Not updating Notes
+2025-06-08 15:54:51 - Analytics cron job completed successfully
+2025-06-08 15:55:07 - Activated virtual environment
+2025-06-08 15:55:07 - Starting analytics cron job (Hours: 6, Mode: manual)
+2025-06-08 15:55:07 - Running analytics script for 6 hours...
+2025-06-08 15:55:10 - Analytics script completed successfully
+2025-06-08 15:55:10 - Manual mode: Displaying output instead of updating Notes
+2025-06-08 15:55:10 - Analytics cron job completed successfully
+2025-06-08 15:55:14 - Activated virtual environment
+2025-06-08 15:55:14 - Starting analytics cron job (Hours: 12, Mode: )
+2025-06-08 15:55:14 - Running analytics script for 12 hours...
+2025-06-08 15:55:16 - Analytics script completed successfully
+2025-06-08 15:55:16 - Updating Apple Notes...
+2025-06-08 15:55:16 - Successfully updated Apple Notes
+2025-06-08 15:55:16 - Analytics cron job completed successfully
+2025-06-08 15:55:23 - Activated virtual environment
+2025-06-08 15:55:23 - Starting analytics cron job (Hours: 1, Mode: dryrun)
+2025-06-08 15:55:23 - Running analytics script for 1 hours...
+2025-06-08 15:55:24 - Analytics script completed successfully
+2025-06-08 15:55:24 - Dry run mode: Not updating Notes
+2025-06-08 15:55:24 - Analytics cron job completed successfully
+2025-06-08 15:57:25 - Activated virtual environment
+2025-06-08 15:57:25 - Starting analytics cron job (Hours: 1, Mode: dryrun)
+2025-06-08 15:57:25 - Running analytics script for 1 hours...
+2025-06-08 15:57:26 - Analytics script completed successfully
+2025-06-08 15:57:26 - Dry run mode: Not updating Notes
+2025-06-08 15:57:26 - Analytics cron job completed successfully
+2025-06-08 15:59:03 - Activated virtual environment
+2025-06-08 15:59:03 - Starting analytics cron job (Hours: 1, Mode: manual)
+2025-06-08 15:59:03 - Running analytics script for 1 hours...
+2025-06-08 15:59:04 - Analytics script completed successfully
+2025-06-08 15:59:04 - Manual mode: Displaying output instead of updating Notes
+2025-06-08 15:59:04 - Analytics cron job completed successfully
+2025-06-08 16:00:59 - Activated virtual environment
+2025-06-08 16:00:59 - Starting analytics cron job (Hours: 6, Mode: manual)
+2025-06-08 16:00:59 - Running analytics script for 6 hours...
+2025-06-08 16:01:02 - Analytics script completed successfully
+2025-06-08 16:01:02 - Manual mode: Displaying output instead of updating Notes
+2025-06-08 16:01:02 - Analytics cron job completed successfully
+2025-06-08 16:01:06 - Activated virtual environment
+2025-06-08 16:01:06 - Starting analytics cron job (Hours: 6, Mode: )
+2025-06-08 16:01:06 - Running analytics script for 6 hours...
+2025-06-08 16:01:09 - Analytics script completed successfully
+2025-06-08 16:01:09 - Updating Apple Notes...
+2025-06-08 16:01:09 - Successfully updated Apple Notes
+2025-06-08 16:01:09 - Analytics cron job completed successfully
+2025-06-08 16:02:37 - Activated virtual environment
+2025-06-08 16:02:37 - Starting analytics cron job (Hours: 3, Mode: )
+2025-06-08 16:02:37 - Running analytics script for 3 hours...
+2025-06-08 16:02:39 - Analytics script completed successfully
+2025-06-08 16:02:39 - Updating Apple Notes...
+2025-06-08 16:02:40 - Successfully updated Apple Notes
+2025-06-08 16:02:40 - Analytics cron job completed successfully
+2025-06-08 16:05:01 - ERROR: Invalid hours argument: test. Must be a positive integer.
+2025-06-08 16:05:06 - ERROR: Invalid hours argument: --test. Must be a positive integer.
+2025-06-08 16:05:14 - Activated virtual environment
+2025-06-08 16:05:14 - Starting analytics cron job (Hours: 24, Mode: dryrun)
+2025-06-08 16:05:14 - Running analytics script for 24 hours...
+2025-06-08 16:05:24 - Analytics script completed successfully
+2025-06-08 16:05:24 - Dry run mode: Not updating Notes
+2025-06-08 16:05:24 - Analytics cron job completed successfully
+2025-06-08 16:05:29 - Activated virtual environment
+2025-06-08 16:05:29 - Starting analytics cron job (Hours: 24, Mode: manual)
+2025-06-08 16:05:29 - Running analytics script for 24 hours...
+2025-06-08 16:05:37 - Analytics script completed successfully
+2025-06-08 16:05:37 - Manual mode: Displaying output instead of updating Notes
+2025-06-08 16:05:37 - Analytics cron job completed successfully
+2025-06-08 16:05:41 - Activated virtual environment
+2025-06-08 16:05:41 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:05:41 - Running analytics script for 24 hours...
+2025-06-08 16:05:49 - Analytics script completed successfully
+2025-06-08 16:05:49 - Updating Apple Notes...
+2025-06-08 16:05:52 - Successfully updated Apple Notes
+2025-06-08 16:05:52 - Analytics cron job completed successfully
+2025-06-08 16:09:04 - Activated virtual environment
+2025-06-08 16:09:04 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:09:04 - Running analytics script for 24 hours...
+2025-06-08 16:09:15 - Analytics script completed successfully
+2025-06-08 16:09:15 - Updating Apple Notes...
+2025-06-08 16:09:19 - Successfully updated Apple Notes
+2025-06-08 16:09:19 - Analytics cron job completed successfully
+2025-06-08 16:14:26 - Activated virtual environment
+2025-06-08 16:14:26 - Starting analytics cron job (Hours: 24, Mode: dryrun)
+2025-06-08 16:14:26 - Running analytics script for 24 hours...
+2025-06-08 16:14:35 - Analytics script completed successfully
+2025-06-08 16:14:35 - Dry run mode: Not updating Notes
+2025-06-08 16:14:35 - Analytics cron job completed successfully
+2025-06-08 16:14:40 - Activated virtual environment
+2025-06-08 16:14:40 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:14:40 - Running analytics script for 24 hours...
+2025-06-08 16:14:47 - Analytics script completed successfully
+2025-06-08 16:14:47 - Updating Apple Notes...
+2025-06-08 16:14:52 - Successfully updated Apple Notes
+2025-06-08 16:14:52 - Analytics cron job completed successfully
+2025-06-08 16:19:16 - Activated virtual environment
+2025-06-08 16:19:16 - Starting analytics cron job (Hours: 24, Mode: dryrun)
+2025-06-08 16:19:16 - Running analytics script for 24 hours...
+2025-06-08 16:19:27 - ERROR: Analytics script failed with exit code 1
+2025-06-08 16:19:27 - ERROR: Output: 📅 Business Broker Report - Sunday, June 08, 2025 at 06:19 UTC
+
+📈 SUMMARY METRICS - LAST 24 HOURS
+════════════════════════════════════════
+
+🏢 PROCESSING VOLUMES
+• Suburbs processed: 99
+• Suburbs with errors: 0
+• Businesses processed: 53
+• Businesses with errors: 3
+
+📞 COMMUNICATIONS
+• Emails sent: 0
+• Calls made: 0
+
+🎯 SUCCESS RATES
+• Suburb success rate: 100.0%
+• Business success rate: 94.6%
+
+⚡ CURRENT STATUS
+• Louise idle: 99 | running: 0
+• Roger idle: 54 | running: 0
+
+📧 No email actions found in this period
+
+📊 LOUISE ANALYSIS - LAST 24 HOURS
+────────────────────────────────────────
+• Total tasks: 99
+• Successful: 99
+• Errored: 0
+• Unknown: 0
+
+📈 Success rate: 100.0%
+📉 Error rate: 0.0%
+
+📋 Task states:
+   └ idle: 99 (100.0%)
+
+📊 ROGER ANALYSIS - LAST 24 HOURS
+────────────────────────────────────────
+• Total tasks: 56
+• Successful: 53
+• Errored: 3
+• Unknown: 0
+
+📈 Success rate: 94.6%
+📉 Error rate: 5.4%
+
+📋 Task states:
+   └ idle: 54 (96.4%)
+   └ errored_pending_approval: 2 (3.6%)
+
+⚠️ Error details:
+   1. SSIP - Indian Grocery Delivery Truganina
+      State: State.errored_pending_approval
+      Date: 2025-06-07T17:54:10.900Z
+
+   2. Ausco Global Produce Wholesale Produce Hoppers Crossing
+      State: State.errored_pending_approval
+      Date: 2025-06-07T09:26:41.836Z
+
+   3. Poultry N More - Factory Outlet
+      State: State.idle
+      Date: 2025-06-07T09:27:20.658Z
+
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+
+Traceback (most recent call last):
+  File "/Users/michaelzhao/swe/business-broker-agent/analytics_for_notes.py", line 263, in <module>
+    exit(main())
+         ~~~~^^
+  File "/Users/michaelzhao/swe/business-broker-agent/analytics_for_notes.py", line 259, in main
+    return  e
+            ^
+UnboundLocalError: cannot access local variable 'e' where it is not associated with a value
+2025-06-08 16:19:45 - Activated virtual environment
+2025-06-08 16:19:45 - Starting analytics cron job (Hours: 24, Mode: dryrun)
+2025-06-08 16:19:45 - Running analytics script for 24 hours...
+2025-06-08 16:19:52 - Analytics script completed successfully
+2025-06-08 16:19:52 - Dry run mode: Not updating Notes
+2025-06-08 16:19:52 - Analytics cron job completed successfully
+2025-06-08 16:21:13 - Activated virtual environment
+2025-06-08 16:21:13 - Starting analytics cron job (Hours: 24, Mode: dryrun)
+2025-06-08 16:21:13 - Running analytics script for 24 hours...
+2025-06-08 16:21:21 - Analytics script completed successfully
+2025-06-08 16:21:21 - Dry run mode: Not updating Notes
+2025-06-08 16:21:21 - Analytics cron job completed successfully
+2025-06-08 16:23:42 - Activated virtual environment
+2025-06-08 16:23:42 - Starting analytics cron job (Hours: 24, Mode: dryrun)
+2025-06-08 16:23:42 - Running analytics script for 24 hours...
+2025-06-08 16:23:50 - Analytics script completed successfully
+2025-06-08 16:23:50 - Dry run mode: Not updating Notes
+2025-06-08 16:23:50 - Analytics cron job completed successfully
+2025-06-08 16:25:07 - Activated virtual environment
+2025-06-08 16:25:07 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:25:07 - Running analytics script for 24 hours...
+2025-06-08 16:25:15 - Analytics script completed successfully
+2025-06-08 16:25:15 - Updating Apple Notes...
+2025-06-08 16:25:17 - Successfully updated Apple Notes
+2025-06-08 16:25:17 - Analytics cron job completed successfully
+2025-06-08 16:25:59 - Activated virtual environment
+2025-06-08 16:25:59 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:25:59 - Running analytics script for 24 hours...
+2025-06-08 16:26:15 - Analytics script completed successfully
+2025-06-08 16:26:15 - Updating Apple Notes...
+2025-06-08 16:26:16 - Successfully updated Apple Notes
+2025-06-08 16:26:16 - Analytics cron job completed successfully
+2025-06-08 16:26:50 - Activated virtual environment
+2025-06-08 16:26:50 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:26:50 - Running analytics script for 24 hours...
+2025-06-08 16:27:04 - Analytics script completed successfully
+2025-06-08 16:27:04 - Updating Apple Notes...
+2025-06-08 16:27:05 - Successfully updated Apple Notes
+2025-06-08 16:27:05 - Analytics cron job completed successfully
+2025-06-08 16:32:48 - Activated virtual environment
+2025-06-08 16:32:48 - Starting analytics cron job (Hours: 24, Mode: manual)
+2025-06-08 16:32:48 - Running analytics script for 24 hours...
+2025-06-08 16:32:55 - Analytics script completed successfully
+2025-06-08 16:32:55 - Manual mode: Displaying output instead of updating Notes
+2025-06-08 16:32:55 - Analytics cron job completed successfully
+2025-06-08 16:32:59 - Activated virtual environment
+2025-06-08 16:32:59 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:32:59 - Running analytics script for 24 hours...
+2025-06-08 16:33:06 - Analytics script completed successfully
+2025-06-08 16:33:06 - Updating Apple Notes...
+2025-06-08 16:33:07 - Successfully updated Apple Notes
+2025-06-08 16:33:07 - Analytics cron job completed successfully
+2025-06-08 16:36:12 - Activated virtual environment
+2025-06-08 16:36:12 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:36:12 - Running analytics script for 24 hours...
+2025-06-08 16:36:22 - Analytics script completed successfully
+2025-06-08 16:36:22 - Updating Apple Notes...
+2025-06-08 16:36:22 - Successfully updated Apple Notes
+2025-06-08 16:36:22 - Analytics cron job completed successfully
+2025-06-08 16:36:58 - Activated virtual environment
+2025-06-08 16:36:58 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:36:58 - Running analytics script for 24 hours...
+2025-06-08 16:37:07 - Analytics script completed successfully
+2025-06-08 16:37:07 - Updating Apple Notes...
+2025-06-08 16:37:08 - Successfully updated Apple Notes
+2025-06-08 16:37:08 - Analytics cron job completed successfully
+2025-06-08 16:38:20 - Activated virtual environment
+2025-06-08 16:38:20 - Starting analytics cron job (Hours: 24, Mode: manual)
+2025-06-08 16:38:20 - Running analytics script for 24 hours...
+2025-06-08 16:38:32 - Analytics script completed successfully
+2025-06-08 16:38:32 - Manual mode: Displaying output instead of updating Notes
+2025-06-08 16:38:32 - Analytics cron job completed successfully
+2025-06-08 16:38:43 - Activated virtual environment
+2025-06-08 16:38:43 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:38:43 - Running analytics script for 24 hours...
+2025-06-08 16:38:51 - Analytics script completed successfully
+2025-06-08 16:38:51 - Updating Apple Notes...
+2025-06-08 16:38:51 - Successfully updated Apple Notes
+2025-06-08 16:38:51 - Analytics cron job completed successfully
+2025-06-08 16:39:15 - Activated virtual environment
+2025-06-08 16:39:15 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:39:15 - Running analytics script for 24 hours...
+2025-06-08 16:39:23 - Analytics script completed successfully
+2025-06-08 16:39:23 - Updating Apple Notes...
+2025-06-08 16:39:23 - Successfully updated Apple Notes
+2025-06-08 16:39:23 - Analytics cron job completed successfully
+2025-06-08 16:41:40 - Activated virtual environment
+2025-06-08 16:41:40 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:41:40 - Running analytics script for 24 hours...
+2025-06-08 16:41:47 - Analytics script completed successfully
+2025-06-08 16:41:47 - Updating Apple Notes...
+2025-06-08 16:41:47 - Successfully updated Apple Notes
+2025-06-08 16:41:47 - Analytics cron job completed successfully
+2025-06-08 16:41:52 - Activated virtual environment
+2025-06-08 16:41:52 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:41:52 - Running analytics script for 24 hours...
+2025-06-08 16:41:59 - Analytics script completed successfully
+2025-06-08 16:41:59 - Updating Apple Notes...
+2025-06-08 16:41:59 - Successfully updated Apple Notes
+2025-06-08 16:41:59 - Analytics cron job completed successfully
+2025-06-08 16:43:42 - Activated virtual environment
+2025-06-08 16:43:42 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:43:42 - Running analytics script for 24 hours...
+2025-06-08 16:48:05 - Activated virtual environment
+2025-06-08 16:48:05 - Starting analytics cron job (Hours: 24, Mode: )
+2025-06-08 16:48:05 - Running analytics script for 24 hours...
+2025-06-08 16:48:14 - Analytics script completed successfully
+2025-06-08 16:48:14 - Updating Apple Notes...
+2025-06-08 16:48:15 - Successfully updated Apple Notes
+2025-06-08 16:48:15 - Analytics cron job completed successfully
